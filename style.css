@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+h2{
+  font-size: 36px;
+  line-height: 1.25;
+}
+
+h3{
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+h4{
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+h5{
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h6{
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+section{
+  padding: 60px 0;
+}
+
+body{
+    width: 100%;
+    background-color:#D5CFE1;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.game{  
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    font-size: 8vmin;
+    color: red;
+}
+
+#reset-btn{
+  padding: 1rem;
+  height: 50;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+}
+
+#new-btn{
+  padding: 1rem;
+  height: 50;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+}
+
+#msg{
+  color: antiquewhite;
+  font-size: 6vmin;
+}
+
+.hide{
+  display: none;
+}
